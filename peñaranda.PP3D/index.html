@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <script src="./js/scripts.js" type="module"></script>
+    <title>Primer Parcial</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <a href="./index.html"><img src="./img/volante.svg" alt="Imagen del logo"></a>
+            <nav>
+                <ul></ul>
+                    <li><a href="./nosotros.html">Nosotros</a></li>
+                    <li><a href="./anuncios.html">Anuncios</a></li>
+                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a href="./contactos.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <h2>Administración</h2>
+        <div class="imgPpal">
+            <img src="./img/ppal.jpg" alt="imagen principal"><br>
+        </div>
+    </section>
+
+
+    <section class="container" id="dataIn">
+        <form>
+            <fieldset>
+                <legend>Inforamcion del Anuncio</legend>
+                <label> Titulo:<input type="text" id="txtTitulo" name="titulo" placeholder="titulo" required> </label>
+                <br /><br />
+                <fieldset>
+                <legend> Transaccion </legend>
+                <label for="rDof">
+                    <input type="radio" name="gander" id="rDoF" value="Venta" /> Venta
+                </label>
+                <br /><br />
+                <label for="rDom">
+                    <input type="radio" name="gander" id="rDoF" value="Alquiler" /> Alquiler
+                </label></fieldset>
+                <br /><br />
+                <label>Descripcion:<input type="text" id="txtApellido" name="descripcion" placeholder="Descripcion" required> </label>
+                <br /><br />
+                <label> Precio:<input type="text" id="txtPrecio" name="precio" placeholder="Precio" required> </label>
+                <br /><br />
+                <label><img src="./img/puerta.svg" alt="puerta"><input type="number" min="2" max="5" id="txtPuertas" name="puertas" placeholder="Puertas" required></label>
+                <br /><br />
+                <label><img src="./img/kms.svg" alt="km"><input type="number" min="0" max="200000" id="txtKms" name="kms" placeholder="KMs" required></label>
+                <br /><br />
+                <label><img src="./img/potencia.svg" alt="potencia"><input type="text" id="txtPotencia" name="potencia" placeholder="Potencia" required></label>
+                <br /><br />
+
+            </fieldset>
+            <button id="guardar"><img src="./img/guardar.svg" alt="guardar">Guardar</button>
+        </form>
+    </section>
+
+    <seccion class="container">
+        <div id="divTabla"></div>
+    </seccion>
+
+    <footer>
+        <nav>
+            <a href="./nosotros.html">Nosotros</a>
+            <a href="./anuncios.html">Anuncios</a>
+            <a href="./blog.html">Blog</a>
+            <a href="./contactos.html">Contacto</a>
+        </nav>
+        <p>Todos los derechos reservados &copy</p>
+    </footer>
+
+</body>
+
+</html>

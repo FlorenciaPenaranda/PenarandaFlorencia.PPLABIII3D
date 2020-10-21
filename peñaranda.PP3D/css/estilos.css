@@ -1,0 +1,110 @@
+header, footer{
+    padding: 10px;
+    background-color: cadetblue;
+    display: flex;      
+}
+
+header nav ul, header a{
+    padding: 0;
+    margin: 0;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+header nav a{
+    display: flex;
+    text-decoration: none;
+    color:white;
+}
+
+h2{
+    text-align: center;
+}
+
+.imgPpal img{
+    display: flex;
+    width: 100%;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 20px;;
+}
+
+label img {
+    display: inline;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+
+}
+
+input{
+    background-color: rgb(204, 200, 200);
+    padding: 0;
+    margin: 0;
+    border: 0px;
+    border-radius: unset;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+
+table, th, td{
+    border:  1px solid black;
+    padding: 5px;
+}
+
+table th{
+    background-color: rgb(58, 60, 61);
+    color: white;
+    padding : 10px
+}
+
+#guardar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    background-color: rgb(99, 99, 97);
+    
+    
+}
+
+button img {
+    width: 20px;
+    height: 20px;
+}
+
+footer nav a {
+    display: flex;
+    text-decoration: none;
+    flex-direction: row;
+    color:white;
+    padding: 10px;
+}
+
+footer p {
+  color: white;
+    margin-left: auto;  
+}
+
+footer nav{
+    display: flex;
+    text-decoration: none;
+    flex-direction: row;
+    color:white;
+    margin: 10px;
+}
+
+
